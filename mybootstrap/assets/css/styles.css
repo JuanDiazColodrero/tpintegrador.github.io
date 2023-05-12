@@ -1,0 +1,78 @@
+.nav-link.link-4 {
+    color: rgba(255, 0, 0, 0.586);
+}
+
+.max-width-950 {
+    max-width: 1200px;
+    margin: 0 auto; /* para centrar las cards horizontalmente */
+  }
+
+.card-img {
+    border: 0;
+    border-radius: 0;
+  }
+
+.sin-borde {
+    border: none;
+  }
+
+  .bg-bordo {
+    background-color: #c82742;
+  }
+
+  .bg-bordo2 {
+    background-color: #C02F3C;
+  }
+  .bg-bordo3 {
+    background-color: #B73A45;
+  }
+  .bg-bordo4 {
+    background-color: #AD464F;
+  }
+  .bg-bordo5 {
+    background-color: #A45159;
+  }
+  .bg-bordo6 {
+    background-color: #9B5D62;
+  }
+  .bg-bordo7 {
+    background-color: #92686C;
+  }
+
+
+  .texto-blanco {
+    color: #fff;
+  }
+
+  .texto-gris {
+    color: #8f8e8e;
+  }
+
+  .font-chica{
+    font-size: 11px;
+  }
+
+  .boton-bg{
+    background-color: #ffffff;
+  }
+
+  @media (max-width: 576px) {
+    .card-title1, .card-text1 {
+      font-size: 0.6em;
+    }
+    .btn1 {
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 576px) and (max-width: 768px) {
+    .card-title1, .card-text1 {
+      font-size: 1.0em;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .card-title1, .card-text1 {
+      font-size: 1.2em;
+    }
+  }
